@@ -1,0 +1,22 @@
+{
+  "name": "diff-match-patch",
+  "version": "1.0.5",
+  "description": "Robust algorithms to perform the operations required for synchronizing plain text",
+  "type": "commonjs",
+  "main": "diff_match_patch_uncompressed.js",
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./diff_match_patch_uncompressed.js"
+  },
+  "scripts": {
+    "prepublish": "rollup -c rollup.config.js"
+  },
+  "keywords": [],
+  "author": "Google Inc.",
+  "license": "Apache",
+  "devDependencies": {
+    "rollup": "2.63.0",
+    "rollup-plugin-terser": "7.0.2",
+    "@rollup/plugin-commonjs": "21.0.1"
+  }
+}
